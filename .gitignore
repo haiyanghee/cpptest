@@ -1,0 +1,5 @@
+#some common useless files to push
+*.o
+*.out
+*.a
+*.so
