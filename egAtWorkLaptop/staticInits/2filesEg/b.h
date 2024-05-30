@@ -7,4 +7,8 @@ struct B{
     B();
 };
 
+struct DummyB{
+    static B sb;
+};
+
 //extern B myb;

@@ -11,4 +11,5 @@ B::B(){
     std::cout<<__func__<<": vect size = "<< my_static_ptr->size()<<"\n";
 }
 
+B DummyB::sb;
 

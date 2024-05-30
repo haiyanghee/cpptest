@@ -26,7 +26,13 @@ int main(){
     printf("new buf = %s\n", buf);
 
 
-    char b[2]={0}; //length of this string is 1...
+    char b[2]={69,69}; //length of this string is 1...
     strncpy(b, testStr, 1);
     printf("b[0] = %c, b[1] = %c\n", b[0], b[1]);
+
+    /*
+    char buf[4]={69,69,69,0};
+    strncpy(buf, "12", 2);
+    printf("buf = %s\n", buf);
+    */
 }
